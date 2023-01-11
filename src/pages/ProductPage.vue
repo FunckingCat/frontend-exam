@@ -13,11 +13,11 @@
       <div class="col1 col-8">
         <img src="../../public/img.png" class="img-fluid w-100" :alt="coupon.name">
         <div class="tab-content mt-2" id="myTabContent">
-          <h2 class="display-6" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Условия</h2>
+          <h2 class="h5 mt-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Условия</h2>
           <div class="" id="home" role="tabpanel" aria-labelledby="home-tab">{{ coupon.description }}</div>
-          <h2 class="display-6" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Описание</h2>
+          <h2 class="h5 mt-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Описание</h2>
           <div class="" id="profile" role="tabpanel" aria-labelledby="profile-tab">{{ coupon.condition }}</div>
-          <h2 class="display-6" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Адрес</h2>
+          <h2 class="h5 mt-4" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Адрес</h2>
           <div class="" id="contact" role="tabpanel" aria-labelledby="contact-tab">{{ coupon.address }}</div>
         </div>
       </div>

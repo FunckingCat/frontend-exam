@@ -1,20 +1,20 @@
 <template>
   <section id="main-page">
     <AddBanner/>
-    <div class="filters d-flex flex-row w-100 justify-content-center">
-      <div class="form-check d-flex">
+    <div class="filters d-flex flex-md-row w-100 justify-content-center flex-sm-column flex-xs-column">
+      <div class="form-check d-flex mx-4 align-self-center">
         <input class="form-check-input" type="radio" name="sort" id="accend" value="accending" v-model="sortOrder">
         <label class="form-check-label ms-2" for="accend">
           По возрастанию цены
         </label>
       </div>
-      <div class="form-check d-flex mx-4">
+      <div class="form-check d-flex mx-4 align-self-center">
         <input class="form-check-input" type="radio" name="sort" id="decend" value="decending" v-model="sortOrder">
         <label class="form-check-label ms-2" for="decend">
           По убыванию цены
         </label>
       </div>
-      <div class="form-check d-flex">
+      <div class="form-check d-flex mx-4 align-self-center">
         <input class="form-check-input" type="radio" name="sort" id="nosort" value="nosort" v-model="sortOrder">
         <label class="form-check-label ms-2" for="nosort">
           Без сортировки
