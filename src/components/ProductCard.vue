@@ -4,7 +4,7 @@
     <div class="card-body d-flex flex-column justify-content-between">
       <h5 class="card-title title">{{ name }}</h5>
       <p class="card-text text">{{ description }}</p>
-      <div class="align-self-end">⭐⭐⭐⭐⭐</div>
+      <div class="align-self-end"><span v-for="index in rating" :key="index">⭐</span></div>
       <div class="align-self-end">{{ totalCells }} 🛒</div>
       <div class="card-text price align-self-end">{{ price }}₽</div>
       <router-link :to="'/product/' + id" class="ml-auto btn btn-dark">Купить</router-link>
@@ -15,7 +15,7 @@
 <script>
 export default {
   name: "ProductCard",
-  props: ['id', 'name', 'description', 'price'],
+  props: ['id', 'name', 'description', 'price', 'rating'],
   computed: {
     totalCells() {
       return Math.floor(Math.random() * 1000);

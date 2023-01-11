@@ -2,27 +2,45 @@
   <section id="main-page">
     <AddBanner/>
     <div class="filters d-flex flex-row w-100 justify-content-center">
-      <div class="form-check d-flex me-5">
+      <div class="form-check d-flex">
         <input class="form-check-input" type="radio" name="sort" id="accend" value="accending" v-model="sortOrder">
         <label class="form-check-label ms-2" for="accend">
           По возрастанию цены
         </label>
       </div>
-      <div class="form-check d-flex me-5">
+      <div class="form-check d-flex mx-4">
         <input class="form-check-input" type="radio" name="sort" id="decend" value="decending" v-model="sortOrder">
         <label class="form-check-label ms-2" for="decend">
           По убыванию цены
         </label>
       </div>
-      <div class="form-check d-flex me-5">
+      <div class="form-check d-flex">
         <input class="form-check-input" type="radio" name="sort" id="nosort" value="nosort" v-model="sortOrder">
         <label class="form-check-label ms-2" for="nosort">
           Без сортировки
         </label>
       </div>
     </div>
+    <div class="filters d-flex flex-row w-100 justify-content-center">
+      <div class="form-check d-flex">
+        <input class="form-check-input" type="radio" name="fiveStars" id="fiveStarsFalse" :value="false" v-model="fiveStars">
+        <label class="form-check-label ms-2" for="fiveStarsFalse">
+          Любые
+        </label>
+      </div>
+      <div class="form-check d-flex mx-5">
+        <input class="form-check-input" type="radio" name="fiveStars" id="fiveStars" :value="true" v-model="fiveStars">
+        <label class="form-check-label ms-2" for="fiveStars">
+          4 звезды и больше
+        </label>
+      </div>
+    </div>
     <div class="cards d-flex flex-wrap my-3 justify-content-center">
-      <ProductCard v-for="coupon in sortCoupons(coupons)" :key="coupon.id" v-bind="coupon"/>
+      <ProductCard v-for="coupon in sortCoupons(coupons).filter((item) => {
+        if (!fiveStars || item.rating > 3)
+          return true;
+        return false;
+      })" :key="coupon.id" v-bind="coupon"/>
     </div>
   </section>
 </template>
@@ -41,6 +59,7 @@ export default {
   data() {
     return {
       sortOrder : "nosort",
+      fiveStars : false
     }
   },
   methods: {
