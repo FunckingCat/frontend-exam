@@ -42,7 +42,15 @@
                     <p class="mb-0">Моб. тел.</p>
                   </div>
                   <div class="col-sm-9">
-                    <p class="text-muted mb-0">-</p>
+                    <p class="text-muted mb-0" v-for="phone in phones" :key="phone">{{phone}}</p>
+                    <hr/>
+                    <form class="form-inline" v-on:submit.prevent="addPhone">
+                      <div class="form-group mx-sm-3 mb-2">
+                        <label for="phoneInput" class="sr-only">Телефон</label>
+                        <input type="text" class="form-control" id="phoneInput" placeholder="8 (800) 555-35-35" v-model="phoneInput" inputmode="tel">
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2 ms-3" >Добавить телефон</button>
+                    </form>
                   </div>
                 </div>
                 <hr>
@@ -131,6 +139,21 @@
 <script>
 export default {
   name: 'ProfilePage',
+  data() {
+    return {
+      phoneInput : "",
+      phones : []
+    }
+  },
+  methods : {
+    addPhone(e) {
+      if (this.phoneInput.length > 5) {
+        this.phones.push(this.phoneInput)
+        this.phoneInput = ""
+      }
+      e.preventDefault()
+    }
+  }
 }
 </script>
 

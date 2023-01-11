@@ -44,11 +44,11 @@
       </div>
       <div class="action d-flex justify-content-between mt-2 align-items-center">
         <div class="reply px-4">
-          <small>Remove</small>
+          <small>Нравится</small>
           <span class="dots"></span>
-          <small>Reply</small>
+          <small>Ответить</small>
           <span class="dots"></span>
-          <small>Translate</small>
+          <small>Пожаловаться</small>
         </div>
       </div>
     </div>
@@ -103,10 +103,9 @@ export default {
 
 
 .dots{
-
   height: 4px;
   width: 4px;
-  margin-bottom: 2px;
+  margin: 2px 6px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
