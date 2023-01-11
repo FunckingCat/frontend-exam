@@ -18,7 +18,7 @@ const store = createStore({
     },
     actions: {
         async receiveCoupons(context) {
-            const response = await fetch('coupons.json').then(r => r.json())
+            const response = await fetch('coupons.json', {mode: 'no-cors'}).then(r => r.json())
             context.commit('updateCoupons', response.results)
         }
     }
