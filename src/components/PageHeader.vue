@@ -22,10 +22,7 @@
               <router-link class="nav-link" to="/">Главная</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Страница один</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/">Страница два</router-link>
+              <a class="nav-link" href=https://raw.githubusercontent.com/FunckingCat/frontend-exam/main/public/coupons.json>main.json</a>
             </li>
           </ul>
           <div class="mx-2 my-2 mr-0 d-flex align-items-center">
@@ -53,7 +50,7 @@
 
 <script>
 export default {
-  name: "PageHeader"
+  name: "PageHeader",
 }
 </script>
 
