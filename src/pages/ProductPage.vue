@@ -52,6 +52,29 @@
         </div>
       </div>
     </div>
+    <div class="card">
+      <div class="card-body p-4">
+        <div class="d-flex flex-start w-100">
+          <img class="rounded-circle shadow-1-strong me-3"
+               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(21).webp" alt="avatar" width="65"
+               height="65" />
+          <form class="w-100">
+            <h5>Оставить отзыв</h5>
+            <div class="rating mb-3" data-mdb-toggle="rating">
+              <label for="customRange3" class="form-label">Поставьте рейтинг</label>
+              <input type="range" class="form-range"  defaut="5" min="1" max="5" step="1" id="customRange3">
+            </div>
+            <div class="form-outline">
+              <label class="form-label" for="textAreaExample">Оставьте Ваш отзыв</label>
+              <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+              <button type="button" class="btn btn-outline-dark">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
