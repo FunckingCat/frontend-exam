@@ -39,6 +39,25 @@
         </div>
       </div>
     </div>
+    <div class="card p-3" v-for="comment in coupon.comments" :key="comment.name">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="user d-flex flex-row align-items-center">
+          <img src="https://xsgames.co/randomusers/avatar.php?g=male" width="30" class="user-img rounded-circle mr-2">
+          <div class="ms-4"><small class="font-weight-bold text-primary">{{ comment.name }}</small><span class="align-self-end"> ⭐⭐⭐⭐⭐</span><br>
+            <small class="font-weight-bold">{{ comment.text }}</small></div>
+        </div>
+        <small>2 days ago</small>
+      </div>
+      <div class="action d-flex justify-content-between mt-2 align-items-center">
+        <div class="reply px-4">
+          <small>Remove</small>
+          <span class="dots"></span>
+          <small>Reply</small>
+          <span class="dots"></span>
+          <small>Translate</small>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -58,5 +77,78 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.card {
+  max-width: 60rem;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.dots{
+
+  height: 4px;
+  width: 4px;
+  margin-bottom: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.badge{
+
+  padding: 7px;
+  padding-right: 9px;
+  padding-left: 16px;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+}
+
+.user-img{
+
+  margin-top: 4px;
+}
+
+.check-icon{
+
+  font-size: 17px;
+  color: #c3bfbf;
+  top: 1px;
+  position: relative;
+  margin-left: 3px;
+}
+
+.form-check-input{
+  margin-top: 6px;
+  margin-left: -24px !important;
+  cursor: pointer;
+}
+
+
+.form-check-input:focus{
+  box-shadow: none;
+}
+
+
+.icons i{
+
+  margin-left: 8px;
+}
+.reply{
+
+  margin-left: 12px;
+}
+
+.reply small{
+
+  color: #b7b4b4;
+
+}
+
+
+.reply small:hover{
+
+  color: green;
+  cursor: pointer;
+
+}
 </style>

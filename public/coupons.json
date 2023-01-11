@@ -13,7 +13,33 @@
       "price": "1200.00",
       "created_at": "2022-05-14T12:47:16.825477Z",
       "photo": "http://127.0.0.1:8000/media/photos/img2.jpeg",
-      "category": 6
+      "category": 6,
+      "comments": [
+        {
+          "name": "Hall Buchanan",
+          "text": "Reprehenderit sunt laboris deserunt velit incididunt in deserunt velit nisi deserunt."
+        },
+        {
+          "name": "Whitney Maldonado",
+          "text": "Minim enim ad anim veniam anim do reprehenderit qui minim fugiat nisi sit adipisicing dolore."
+        },
+        {
+          "name": "Vera Langley",
+          "text": "Id voluptate deserunt deserunt tempor in reprehenderit sunt dolore minim Lorem laborum dolor in."
+        },
+        {
+          "name": "Pansy Dunn",
+          "text": "Voluptate veniam culpa irure et."
+        },
+        {
+          "name": "Cathryn Wynn",
+          "text": "Enim sit et proident in tempor voluptate fugiat occaecat ullamco cupidatat voluptate."
+        },
+        {
+          "name": "Alberta Clements",
+          "text": "Esse ullamco ad cupidatat eu velit aliqua consectetur nisi."
+        }
+      ]
     },
     {
       "id": 3,
@@ -25,7 +51,29 @@
       "price": "110.00",
       "created_at": "2022-05-14T12:48:40.202223Z",
       "photo": "http://127.0.0.1:8000/media/photos/img3.jpeg",
-      "category": 5
+      "category": 5,
+      "comments": [
+        {
+          "name": "Orr Kirk",
+          "text": "Sint fugiat laboris deserunt enim dolor et aute dolor fugiat nulla nostrud."
+        },
+        {
+          "name": "Walters Pollard",
+          "text": "Aute do aliquip Lorem nisi sit adipisicing enim pariatur et aute duis id minim sint."
+        },
+        {
+          "name": "Marissa Larsen",
+          "text": "Sunt ex ea fugiat veniam."
+        },
+        {
+          "name": "Leonor Wright",
+          "text": "Tempor nulla officia ea incididunt sint et mollit anim elit ut."
+        },
+        {
+          "name": "Woods Vaughan",
+          "text": "Sint ullamco pariatur laboris amet consequat amet."
+        }
+      ]
     },
     {
       "id": 4,
@@ -37,7 +85,33 @@
       "price": "999.00",
       "created_at": "2022-05-14T12:49:44.137892Z",
       "photo": "http://127.0.0.1:8000/media/photos/img4.jpeg",
-      "category": 5
+      "category": 5,
+      "comments": [
+        {
+          "name": "Pauline Howell",
+          "text": "Reprehenderit in culpa enim commodo sunt anim pariatur sunt pariatur cillum proident sunt."
+        },
+        {
+          "name": "Jocelyn Foley",
+          "text": "Eiusmod aliqua velit culpa qui voluptate deserunt dolor velit amet labore non."
+        },
+        {
+          "name": "Mcdaniel Oneill",
+          "text": "Et id proident ea cupidatat deserunt fugiat."
+        },
+        {
+          "name": "Ochoa Weiss",
+          "text": "Officia consequat eiusmod veniam fugiat magna ex adipisicing duis exercitation officia pariatur duis consectetur magna."
+        },
+        {
+          "name": "Courtney Lester",
+          "text": "Labore non magna voluptate labore ad irure eiusmod laboris deserunt tempor aliquip consectetur."
+        },
+        {
+          "name": "Rodgers Huber",
+          "text": "Ut consectetur eu amet id aute excepteur consectetur cillum in aute minim incididunt."
+        }
+      ]
     },
     {
       "id": 5,
@@ -49,7 +123,37 @@
       "price": "300.00",
       "created_at": "2022-05-14T12:50:50.247918Z",
       "photo": "http://127.0.0.1:8000/media/photos/img5.jpeg",
-      "category": 5
+      "category": 5,
+      "comments": [
+        {
+          "name": "Elise Graves",
+          "text": "Mollit officia Lorem est duis ad aliqua."
+        },
+        {
+          "name": "Woodard Parsons",
+          "text": "Laborum qui id in nisi esse dolor sit voluptate eu eiusmod."
+        },
+        {
+          "name": "Eunice Cortez",
+          "text": "Eu id sint aliqua fugiat dolore deserunt labore nulla exercitation aute."
+        },
+        {
+          "name": "Hazel Craig",
+          "text": "Sunt amet adipisicing cillum elit quis adipisicing culpa deserunt officia quis consectetur magna velit eiusmod."
+        },
+        {
+          "name": "Briggs Hampton",
+          "text": "Ea pariatur nulla voluptate culpa ex esse quis incididunt duis et eiusmod quis."
+        },
+        {
+          "name": "Fisher Dyer",
+          "text": "Anim amet sit commodo velit irure consequat pariatur aliqua consequat anim nostrud aliquip voluptate consectetur."
+        },
+        {
+          "name": "Lynnette Bridges",
+          "text": "Sit labore exercitation cupidatat ex eiusmod magna tempor."
+        }
+      ]
     },
     {
       "id": 6,
@@ -61,7 +165,29 @@
       "price": "46000.00",
       "created_at": "2022-05-14T12:52:17.186675Z",
       "photo": "http://127.0.0.1:8000/media/photos/img6.jpeg",
-      "category": 4
+      "category": 4,
+      "comments": [
+        {
+          "name": "Paulette Salas",
+          "text": "Nisi duis laboris dolore ea exercitation occaecat anim sit esse exercitation cupidatat cillum."
+        },
+        {
+          "name": "Barrera Kirkland",
+          "text": "Irure eiusmod aliquip amet reprehenderit."
+        },
+        {
+          "name": "Tran Mason",
+          "text": "Tempor et Lorem culpa aliqua ut incididunt."
+        },
+        {
+          "name": "Tommie Warner",
+          "text": "Enim eiusmod non fugiat eiusmod dolore cillum ut mollit in deserunt commodo deserunt adipisicing proident."
+        },
+        {
+          "name": "Swanson Mcdaniel",
+          "text": "Laboris reprehenderit eu labore enim fugiat consectetur quis."
+        }
+      ]
     },
     {
       "id": 7,
@@ -73,7 +199,37 @@
       "price": "3000.00",
       "created_at": "2022-05-14T12:53:43.154834Z",
       "photo": "http://127.0.0.1:8000/media/photos/img7.jpeg",
-      "category": 4
+      "category": 4,
+      "comments": [
+        {
+          "name": "Ruth Edwards",
+          "text": "Ut sunt Lorem consectetur ut fugiat sint ad ut."
+        },
+        {
+          "name": "Pearl Warren",
+          "text": "Do aliquip proident non sint reprehenderit."
+        },
+        {
+          "name": "Rivera Berry",
+          "text": "Sunt cillum mollit in nostrud sunt."
+        },
+        {
+          "name": "Knight Sullivan",
+          "text": "Laboris nisi voluptate reprehenderit adipisicing veniam in ea id minim incididunt."
+        },
+        {
+          "name": "Jan Mccullough",
+          "text": "Id sunt sunt id adipisicing ut irure irure magna cupidatat ut velit."
+        },
+        {
+          "name": "Greer Noel",
+          "text": "Nisi Lorem ullamco anim adipisicing voluptate dolore fugiat deserunt."
+        },
+        {
+          "name": "Alford Blair",
+          "text": "Proident in ea id exercitation aute dolore culpa nostrud velit enim."
+        }
+      ]
     },
     {
       "id": 8,
@@ -85,7 +241,37 @@
       "price": "4000.00",
       "created_at": "2022-05-14T12:55:23.002935Z",
       "photo": "http://127.0.0.1:8000/media/photos/img8.png",
-      "category": 3
+      "category": 3,
+      "comments": [
+        {
+          "name": "Aurelia Fry",
+          "text": "Commodo irure ad enim id exercitation nisi incididunt nostrud dolor eu."
+        },
+        {
+          "name": "Perkins Hendricks",
+          "text": "Aliqua in sit aliqua occaecat aliquip Lorem dolore sit aute."
+        },
+        {
+          "name": "Matilda Velasquez",
+          "text": "Dolor sint pariatur culpa voluptate commodo anim consequat pariatur nisi esse Lorem pariatur aliqua nisi."
+        },
+        {
+          "name": "Spears Hood",
+          "text": "Esse adipisicing in ipsum tempor ut qui laboris Lorem id nisi aliqua consequat ullamco."
+        },
+        {
+          "name": "Rush Mays",
+          "text": "Pariatur nulla ut veniam ullamco laboris aliqua ex."
+        },
+        {
+          "name": "Kirkland Duffy",
+          "text": "Cillum sint cupidatat ut qui commodo occaecat consectetur ea."
+        },
+        {
+          "name": "Shelia Suarez",
+          "text": "Et in aliquip fugiat consequat ea magna duis laboris fugiat labore."
+        }
+      ]
     },
     {
       "id": 9,
@@ -97,7 +283,29 @@
       "price": "7890.00",
       "created_at": "2022-05-14T12:56:44.052712Z",
       "photo": "http://127.0.0.1:8000/media/photos/img9.jpeg",
-      "category": 3
+      "category": 3,
+      "comments": [
+        {
+          "name": "Lott Galloway",
+          "text": "Ut enim ullamco irure nulla minim aliqua sunt deserunt."
+        },
+        {
+          "name": "Griffith Grimes",
+          "text": "Anim eu voluptate occaecat in labore eiusmod eu aliqua nostrud."
+        },
+        {
+          "name": "Mathews Woods",
+          "text": "Nisi consectetur sunt culpa nostrud officia quis reprehenderit in ipsum tempor fugiat laboris est et."
+        },
+        {
+          "name": "Evangelina Fischer",
+          "text": "Ut amet magna exercitation fugiat."
+        },
+        {
+          "name": "Joanna Horton",
+          "text": "Anim deserunt laboris culpa sunt id sint."
+        }
+      ]
     },
     {
       "id": 11,
@@ -109,7 +317,29 @@
       "price": "400.00",
       "created_at": "2022-05-14T12:59:35.149595Z",
       "photo": "http://127.0.0.1:8000/media/photos/img11.jpeg",
-      "category": 3
+      "category": 3,
+      "comments": [
+        {
+          "name": "Margarita Collier",
+          "text": "Tempor duis exercitation duis id non amet."
+        },
+        {
+          "name": "Figueroa Shepherd",
+          "text": "Proident nostrud labore elit laborum laboris culpa duis velit id culpa id."
+        },
+        {
+          "name": "Tabitha Chen",
+          "text": "Irure mollit qui pariatur nisi cupidatat nulla labore."
+        },
+        {
+          "name": "Lorena Morin",
+          "text": "Magna non commodo in consectetur qui culpa eu."
+        },
+        {
+          "name": "Garza Buck",
+          "text": "In labore id ad anim id aliquip deserunt officia fugiat enim dolor consectetur nulla."
+        }
+      ]
     },
     {
       "id": 1,
@@ -121,7 +351,37 @@
       "price": "1590.40",
       "created_at": "2022-05-14T12:58:06.609271Z",
       "photo": "http://127.0.0.1:8000/media/photos/img10.jpeg",
-      "category": 4
+      "category": 4,
+      "comments": [
+        {
+          "name": "Fuller Mason",
+          "text": "Dolor voluptate Lorem Lorem cillum excepteur incididunt irure ullamco ullamco excepteur nostrud laborum."
+        },
+        {
+          "name": "Nora Fitzgerald",
+          "text": "Deserunt ad nisi velit in fugiat Lorem sit irure esse commodo ea ad in esse."
+        },
+        {
+          "name": "Madelyn Mueller",
+          "text": "Amet dolore ipsum aliquip tempor velit elit."
+        },
+        {
+          "name": "Rosetta Ballard",
+          "text": "Nostrud minim elit officia minim incididunt Lorem exercitation ex proident deserunt minim commodo."
+        },
+        {
+          "name": "Prince Maynard",
+          "text": "Irure excepteur fugiat cillum tempor ipsum est irure minim qui sit ut consectetur anim laboris."
+        },
+        {
+          "name": "Grimes Gentry",
+          "text": "Sit et minim occaecat elit aliqua aute irure veniam commodo excepteur est mollit eu."
+        },
+        {
+          "name": "Skinner Nielsen",
+          "text": "Est irure sint dolor laborum."
+        }
+      ]
     }
   ]
 }
