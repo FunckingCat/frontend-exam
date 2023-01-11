@@ -24,6 +24,9 @@
             <li class="nav-item">
               <a class="nav-link" href=https://raw.githubusercontent.com/FunckingCat/frontend-exam/main/public/coupons.json>main.json</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href=https://github.com/FunckingCat/frontend-exam>Резпозиторий</a>
+            </li>
           </ul>
           <div class="mx-2 my-2 mr-0 d-flex align-items-center">
             <div class="text-white mx-2">
