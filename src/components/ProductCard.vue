@@ -1,5 +1,5 @@
 <template>
-  <div class="card m-2">
+  <section class="card m-2">
     <img src="../../public/img.png" class="card-img-top" alt="Product Image">
     <div class="card-body d-flex flex-column justify-content-between">
       <h5 class="card-title title">{{ name }}</h5>
@@ -9,7 +9,7 @@
       <div class="card-text price align-self-end">{{ price }}₽</div>
       <router-link :to="'/product/' + id" class="ml-auto btn btn-dark">Купить</router-link>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

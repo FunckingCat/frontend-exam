@@ -30,7 +30,7 @@
           </ul>
           <div class="mx-2 my-2 mr-0 d-flex align-items-center">
             <div class="text-white mx-2">
-              <router-link class="nav-link text-light" to="/profile">polzovatel@mail.com</router-link>
+              <router-link class="nav-link text-light" to="/profile">polzovatel@mail.com (Можно нажать перейти в профиль)</router-link>
             </div>
             <a href="#" class="btn btn-secondary">Выйти</a>
           </div>

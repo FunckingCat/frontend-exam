@@ -1,10 +1,10 @@
 <template>
-  <div id="main-page">
+  <section id="main-page">
     <AddBanner/>
     <div class="cards d-flex flex-wrap my-3 justify-content-center">
       <ProductCard v-for="coupon in coupons" :key="coupon.id" v-bind="coupon"/>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
