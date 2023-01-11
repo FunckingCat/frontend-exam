@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="cards d-flex flex-wrap my-3 justify-content-center">
-      <ProductCard v-for="coupon in coupons" :key="coupon.id" v-bind="coupon"/>
+      <ProductCard v-for="coupon in sortCoupons(coupons)" :key="coupon.id" v-bind="coupon"/>
     </div>
   </section>
 </template>
@@ -43,7 +43,24 @@ export default {
       sortOrder : "nosort",
     }
   },
-  methods: {},
+  methods: {
+    sortCoupons(coupons) {
+      return coupons.sort((a,b) => {
+        let p1 = parseFloat(a.price)
+        let p2 = parseFloat(b.price)
+        if (this.sortOrder === "nosort")
+          return 0;
+        if (this.sortOrder === "accending") {
+          if (p1 > p2) return 1;
+          if (p1 < p2) return -1;
+          return 0;
+        }
+        if (p1 > p2) return -1;
+        if (p1 < p2) return 1;
+        return 0;
+      })
+    }
+  },
   computed: {
     ...mapGetters({
       coupons: "getCoupons"
